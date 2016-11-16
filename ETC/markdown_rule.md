@@ -17,9 +17,9 @@
 
 
 ##코드 쓰기
-" '
+"    "
 var a = -1;
-" '
+"    "
 
 ##URL
 ## [Github](http://github.com/ggomi/TIL)
