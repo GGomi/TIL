@@ -12,14 +12,15 @@
 ### 숫자리스트
 1. 숫자리스트
 1. 숫자리스트2
-
-* 숫자리스트로 시작한 후
-* 이어진다
+1. 숫자리스트로 시작한 후
+1. 이어진다
 
 
 ##코드 쓰기
 "'
-
 var a = -1;
-
 "'
+
+##URL
+## [Github](http://github.com/ggomi/TIL)
+## [Blog](http://dev-min.tistory.com)
