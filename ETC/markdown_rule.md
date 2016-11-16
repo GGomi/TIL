@@ -21,7 +21,7 @@
 ```
 This is a normal paragraph:
 
-    This is a code block.
+var tmp=1;
 end code block.
 ```
 실제로 적용해보면,
