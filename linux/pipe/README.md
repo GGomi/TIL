@@ -10,6 +10,7 @@
 
 ###popen() 함수
 "'
+
 #include<stdio.h>
 FILE *popen(const char *command,const char *type);
 성공하면 파이프를 위한 파일 포인터를 실패하면 NULL을 반환한다.
