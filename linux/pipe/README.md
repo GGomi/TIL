@@ -8,7 +8,7 @@
 
 ##파이프 함수
 
-###popen() 함수, pclose() 함
+###popen() 함수, pclose() 함수
 
     FILE *popen(const char *command,const char *type);
     성공하면 파이프를 위한 파일 포인터를 실패하면 NULL을 반환한다.
