@@ -15,7 +15,7 @@ public boolean onKeyDown(int keyCode, KeyEvent event) {
 ```
 
 ##SSL 보안인증 문제
-*https를 Url에 사용하게되면 SSL 보안인증문제가 생긴다. 이 문제는 다음번에 더 자세히 알아 볼 예정
+* https를 Url에 사용하게되면 SSL 보안인증문제가 생긴다. 이 문제는 다음번에 더 자세히 알아 볼 예정
 
 ```
 mWebView.loadUrl("http://dormsys.mokpo.ac.kr/system/user/login.php");
