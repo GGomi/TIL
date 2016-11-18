@@ -16,4 +16,5 @@ FILE *popen(const char *command,const char *type);
 
 int pclose(FILE *fp);
 성공하면 command 명령어의 종료 상태를 실패하면 -1을 반환한다.
-'"
+
+"'
