@@ -3,9 +3,11 @@
 > ## Example
 
 >> Accumul.accum("abcd");    // "A-Bb-Ccc-Dddd"\
+
 >> Accumul.accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"\
+
 >> Accumul.accum("cwAt");    // "C-Ww-Aaa-Tttt"\
->> 위와 같은 결과를 나타내는 알고리즘 구현
+>> #### 위와 같은 결과를 나타내는 알고리즘 구현
 ------------------
 
 > ## 내가 짠 코드
