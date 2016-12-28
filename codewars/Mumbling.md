@@ -1,6 +1,7 @@
 # [7kyu] Mumbling
 -------------------------------------
 > ## Example
+
 >> Accumul.accum("abcd");    // "A-Bb-Ccc-Dddd"\
 >> Accumul.accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"\
 >> Accumul.accum("cwAt");    // "C-Ww-Aaa-Tttt"\
