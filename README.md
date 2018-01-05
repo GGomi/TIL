@@ -12,5 +12,5 @@
 - 단어구분은 `_`로 한다
 
 ## 3. ETC
-- 커밋내용을 [Blog(Tistory)](https://ggomi.github.io/)에 함께 블로깅한다.
+- 커밋내용을 [Blog](https://ggomi.github.io/)에 함께 블로깅한다.
 - 
