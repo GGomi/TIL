@@ -1,6 +1,7 @@
 ## 2019 Kakao 블라인드 코딩테스트
 ---
 
+## 1번
 ```javascript
 /**
  * 
@@ -34,3 +35,52 @@ function solution(record) {
     return answer;
 }
 ```
+---
+## 3번
+```java
+/**
+ * @param {*} array [["100","ryan","music","2"},["200","apeach","math","2"},["300","tube","computer","3"},["400","con","computer","4"},["500","muzi","music","3"},["600","apeach","music","2"}}
+ * @return int 2
+ */
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
+
+class Solution {
+    public int solution(String[][] relation) {
+        Map<String, Integer> list;
+        List<Integer> ans = new ArrayList<Integer>();
+        String temp;
+        for (int i = 1; i < (1 << relation[0].length); i++) {
+            list = new HashMap<String, Integer>();
+            for (int j = 0; j < relation.length; j++) {
+                temp = "";
+                for(int k = 0; k<relation[0].length; k++) {
+                    if ((i & (1 << k)) == (1 << k)) {
+                        temp += relation[j][k];
+                    }   
+                }
+                list.put(temp, 0);
+            }
+
+            if(list.size() == relation.length && result(ans,i)) {
+                ans.add(i);
+            }
+        }
+
+        return ans.size();
+    }
+
+    public boolean result(List<Integer> list, int n) {
+        for(int i=0;i<list.size();i++) {
+            if((list.get(i)&n) == list.get(i)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+ ```
