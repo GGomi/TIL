@@ -28,9 +28,7 @@ class Solution {
                   if(maxSizeOfOneArea < count) {
                       maxSizeOfOneArea = count;
                   }
-                  
               }
-             
           }
       }
       int[] answer = new int[2];

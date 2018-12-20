@@ -43,7 +43,7 @@ public void test() throws IOException {
         String[] secondArr = br.readLine().split(" ");
         int[] compareArr = stringToInt(secondArr);
 
-        //2진탐색 ㄱㄱ
+        // 이진탐색 ㄱㄱ
 
         for(int i = 0; i < compareArr.length; i++) {
             int flag = 0;
