@@ -44,7 +44,6 @@ public void test() throws IOException {
         int[] compareArr = stringToInt(secondArr);
 
         // 이진탐색 ㄱㄱ
-
         for(int i = 0; i < compareArr.length; i++) {
             int flag = 0;
             int max = firstLength;
