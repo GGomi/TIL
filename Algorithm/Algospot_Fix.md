@@ -32,7 +32,7 @@ k번째로 쉬운 문제가 k번째에 배치되었다면, 이것을 "난이도 
 ```
 
 ---
-## Solved
+## Solved Problem
 
 ```java
 public class Fix {
