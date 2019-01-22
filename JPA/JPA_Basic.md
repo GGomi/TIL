@@ -1,12 +1,13 @@
-# Dialect
-어떤 데이터베이스냐에 따라서 서로 SQL이 조금씩 다르기때문에(데이터베이스 방언)때문에 미리 Persistence.xml에서 사용할 데이터베이스의 종류를 정해서 JPA가 제대로 쿼리를 작성할 수 있게끔 한다.
+# JPA 기초
 
+## Dialect
+- 어떤 데이터베이스냐에 따라서 서로 SQL이 조금씩 다르기때문에(데이터베이스 방언)때문에 미리 Persistence.xml에서 사용할 데이터베이스의 종류를 정해서 JPA가 제대로 쿼리를 작성할 수 있게끔 한다.
 ---
-
-Entity Manager는 쓰레드간에 공유하면 안된다
-Entity Manager Factory는 하나만 생성해서 애플리케이션 전체에서 공유한다.
-모든 데이터변경은 트랜잭션 안에서 실행
-
+## Entity
+- Entity Manager는 쓰레드간에 공유하면 안된다
+- Entity Manager Factory는 하나만 생성해서 애플리케이션 전체에서 공유한다.
+- 모든 데이터변경은 트랜잭션 안에서 실행
+---
 ## 데이터베이스 스키마 자동 생성하기
 - DDL을 애플리케이션 실행 시점에 자동생성
 - 테이블 중심 -> 객체 중심
@@ -17,7 +18,7 @@ Entity Manager Factory는 하나만 생성해서 애플리케이션 전체에서
 - 개발 초기는 create, update
 - 테스트서버는 update, validate
 - 스테이징과 운영서버는 validate or None
-
+---
 ## option
 ```xml
 <property name="hibernate.hbm2ddl.auto" value="create"/>
@@ -25,7 +26,7 @@ Entity Manager Factory는 하나만 생성해서 애플리케이션 전체에서
 - create는 기존 테이블을 drop 시키고, 다시 생성함.(운영사용금지)
 - create-drop은 drop->create->drop 의 순서로 짆애
 - create옵션은 테스트할 때만.
-
+---
 ## Enum Class 
 - **꼭 String 타입으로 할 것**
 - int로 하면 Enum의 인덱스가 테이블에 Insert된다. 그래서 Enum클래스에 새로운 것이 추가가 된다면 기존 테이블이 꼬이게 된다.
@@ -35,16 +36,18 @@ Entity Manager Factory는 하나만 생성해서 애플리케이션 전체에서
 @Enumerated(EnumType.STRING)
 private RoleType roleType;
 ```
+---
 
 ## 매핑관련 Annotation
-@Column
+
+### @Column
 
 ```java
 @Column(name="username") // username을 컬럼이름으로 사용함
 private String name;
 ```
 
-@Temporal
+### @Temporal
 - 날짜 타입 매핑 관련 Annotation
 ```java
 @Temporal(TemporalType.DATE)
@@ -58,7 +61,7 @@ private Date timestamp;
 ```
 
 
-@Lob
+### @Lob
 - 컨텐츠의 길이가 너무길 때, 바이너리 파일로 입력하기위한 Annotation
 - CLOB : String, char[], java.sql.CLOB
 - BLOB : byte[], java.sql.BLOB
@@ -71,9 +74,11 @@ private String lobString;
 private byte[] lobByte;
 ```
 
-@Transient
+### @Transient
 - 이 변수는 매핑하기 싫을 때 쓰는 Annotation인데 안쓰는 것이 좋음.
 - 어쨌든 매핑에서 제외시킬 때 사용
+
+---
 
 ## 식별자 매핑 어노테이션
 @GeneratedValue(strategy = GenerationType.AUTO)
