@@ -78,6 +78,18 @@
 - [ ] [이펙티브 자바](http://www.yes24.com/24/goods/65551284?scode=032&OzSrank=1) - 조슈아 블로크 (~ing)
 - [ ] [객체지향의 사실과 오해](http://www.yes24.com/24/Goods/18249021?Acode=101) - 조영호
 ---
+
+## 유용한 자료들
+### Video
+- [그런 REST API로 괜찮은가? (Youtube)](https://youtu.be/RP_f5dMoHFc) - 네이버 D2(이응준님)
+- [Spring기반 REST API (Inflearn)](https://www.inflearn.com/course/spring_rest-api/) - 백기선님
+- [객체지향프로그래밍입문 (Inflearn)](https://www.inflearn.com/course/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8/) - 최범균님
+- [JPA프로그래밍 기본다지기 (Youtube)](https://youtu.be/WfrSN9Z7MiA) - 김영한님
+- [백기선님 유튜브](https://www.youtube.com/user/whiteship2000)
+
+### Blog
+- [Spring jpa practice (Blog)](https://cheese10yun.github.io/spring-jpa-best/)
+
 # Writing Rules
 
 ## 1. General Rules
@@ -93,6 +105,6 @@
 - 공유하고 싶은 내용은 [Blog](https://ggomi.github.io/)와 [velog](https://velog.io/@essri)에 함께 블로깅해서 공유하도록한다.
 
 # Reference
-- [Yun님의 Github](https://github.com/cheese10yun/TIL)
+- [Yun님의 Github](https://github.com/cheese10yun)
+- [Wan님의 Github](https://github.com/minwan1)
 - [Sungjun님의 Github](https://github.com/gwonsungjun)
-- [진유림님의 Github](https://)
