@@ -4,12 +4,12 @@
 [![githubURL](https://img.shields.io/badge/Email-dhkdn4042@gmail.com-blue.svg)](mailto:dhkdn4042@gmail.com)
 
 - 하루하루 새로 배운 것을 다음의 규칙으로 commit하고, Wiki 형태로 관리한다.
-
+- 자기계발 관련 정보 작성
 ---
 
-# Index(A-Z)
+# Index(A-Z) 
 
-## Algorithm
+## Algorithm 
 - [2019 카카오 블라인드코딩테스트](Algorithm/2019_Kakao_BlindCodingTest.md)
 - [2017 카카오 코드 예선 풀이](Algorithm/2017_KakaoCode.md)
 - Algospot Problems
@@ -72,6 +72,11 @@
 ## REST API
 - [REST API 정리](REST/RESTAPI.md)
 
+## will read or was read(WRWR)
+- [ ] [클린코드](http://www.yes24.com/24/goods/11681152?scode=032&OzSrank=1) - 로버트.C.마틴
+- [ ] [개발자가 정복해야할 객체지향과 디자인패턴](http://www.yes24.com/24/goods/9179120?scode=032&OzSrank=1) - 최범균 (~ing)
+- [ ] [이펙티브 자바](http://www.yes24.com/24/goods/65551284?scode=032&OzSrank=1) - 조슈아 블로크 (~ing)
+- [ ] [객체지향의 사실과 오해](http://www.yes24.com/24/Goods/18249021?Acode=101) - 조영호
 ---
 # Writing Rules
 
@@ -90,3 +95,4 @@
 # Reference
 - [Yun님의 Github](https://github.com/cheese10yun/TIL)
 - [Sungjun님의 Github](https://github.com/gwonsungjun)
+- [진유림님의 Github](https://)
