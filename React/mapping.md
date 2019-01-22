@@ -1,24 +1,26 @@
 # Component Mapping
 - arr.map(callback, [thisArg])
-> - callback 새로운 배열의 요소를 생성하는 함수로서, 다음 세가지 인수를 가짐.
->> - currentValue 현재 처리되고 있는 요소
->> - index 현재 처리되고있는 요소의 index 값
->> - array 메소드가 불려진 배열
-> - thisArg(*선택항목임*) callback 함수 내부에서 사용 할 this 값을 설정
+- callback 새로운 배열의 요소를 생성하는 함수로서, 다음 세가지 인수를 가짐.
+- currentValue 현재 처리되고 있는 요소
+  - index 현재 처리되고있는 요소의 index 값
+  - array 메소드가 불려진 배열
+- thisArg(*선택항목임*) callback 함수 내부에서 사용 할 this 값을 설정
+
+---
 
 ### ES6 문법(Arrow 문법)
-```
+```javascript
 let one = a => console.log(a);
 ```
 아래와 같은 코드이다.
-```
+```javascript
 var one = function one(a) {
   return console.log(a);
 };
 
 ```
-### ES6 문법(Arrow 문법)#2
-```
+### ES6 문법(Arrow 문법) #2
+```javascript
 var num = [1,2,3,4,5];
 var processed = num.map(function(num){
   return num*num;
@@ -27,7 +29,7 @@ var processed = num.map(function(num){
 결과는 [1,4,9,16,25]가 될 것이다.
 
 ```
-```
+```javascript
 let num = [1,2,3,4,5];
 let result = num.map((num) => {
   return num*num;
@@ -37,7 +39,7 @@ let result = num.map((num) => {
 ```
 
 ### Mapping 예제
-```
+```javascript
 class ContactInfo extends React.Component {
     render() {
         return (
