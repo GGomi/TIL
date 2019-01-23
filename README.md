@@ -1,5 +1,5 @@
 # Today I Learned(TIL) 📝 
-[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](./LISENSE)
+[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](./LICENSE)
 [![githubURL](https://img.shields.io/badge/Blog-ggomi.github.io-purple.svg)](https://ggomi.github.io)
 [![githubURL](https://img.shields.io/badge/Email-dhkdn4042@gmail.com-blue.svg)](mailto:dhkdn4042@gmail.com)
 
