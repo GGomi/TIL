@@ -28,6 +28,7 @@
   - [끝말잇기](Algorithm/End_to_End.md)
   - [큰 수 찾기](Algorithm/Programmers_BigNumber.md)
   - [전화번호 목록](Algorithm/Programmers_NumberBook.md)
+  - [완주 하지못한 선수](Algorithm/Programmers_NotCompletePerson.md)
 - Codewars
   - [Array Diff](Algorithm/Array_diff.md)
   - [Jaden Casing Strings](Algorithm/Jaden_Casing_Strings.md)
