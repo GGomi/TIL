@@ -31,6 +31,7 @@
   - [완주 하지못한 선수](Algorithm/Programmers_NotCompletePerson.md)
   - [위장](Algorithm/Programmers_Camouflage.md)
   - [쇠막대기](Algorithm/Programmers_SteelStick.md)
+  - [프린터](Algorithm/Programmers_Printer.md)
 - Codewars
   - [Array Diff](Algorithm/Array_diff.md)
   - [Jaden Casing Strings](Algorithm/Jaden_Casing_Strings.md)
