@@ -156,3 +156,4 @@ public static void merge(int left, int mid, int right, int[] arr){
 
 ## Heap Sort
 - 모든 경우에 대해서 O(nlogn)의 성능을 보인다.
+- 전체를 정렬할 때 사용하는 것보다 전체에서 가장 큰 값이 몇개 필요할 때 사용하면 좋다.
