@@ -56,6 +56,7 @@
 ## JPA
 - [JPA 기초](JPA/JPA_Basic.md)
 - [JPA 연관관계](JPA/JPA_Relation.md)
+- [ModelMapper, DTO](JPA/modelMaper.md)
 
 ## Linux
 - [Pipe](https://github.com/GGomi/TIL/tree/master/linux/pipe)
