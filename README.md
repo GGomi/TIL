@@ -48,6 +48,7 @@
 
 ## Java
 - [이펙티브 자바 정리](Java/effective_java.md)
+- [POJO, VO, JavaBean](Java/POJO.md)
 ## Javascript
 - [Javascript Object](Javascript/javascript_Object.md)
 - [Javascript 정규식 팁](Javascript/javascript_phonenumber.md)
