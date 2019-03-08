@@ -24,4 +24,8 @@
     - 탐색은 O(n)이다.
 
 ## HashMap
+- Java의 HashMap은 Collections Frameworks에 속한 구현체 클래스
+- 키에 대한 해시 값을 사용하여 값을 저장하고 조회하며, 키-값 쌍의 개수에 따라 동적으로 크기가 증가하는 `associate array` 이다.
+- HashMap의 해시충돌을 방지하기위해서 Seperate Chaining, 보조 해시함수를 사용한다.
+- Java 8에서는 Seperate Chaining을 위해서 링크드리스트가 아닌 트리를 사용하기도 한다.(해시버킷에 할당된 키-값 쌍의 개수가 기준치 이상 넘어가면 트리로 변경한다.)
 - 
