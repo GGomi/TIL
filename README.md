@@ -38,8 +38,13 @@
   - [Mumbling](Algorithm/Mumbling.md)
 - Baekjoon
   - [No.1920](Algorithm/baekjoon_1920.md)
+## CI & DI
+- [Travis CI 정리](CI&DI/travis_ci.md)
+
 ## Computer Science
+- [데이터 구조](ComputerScience/Data_Structure.md)
 - [정렬 알고리즘 정리](ComputerScience/Sorting_Algorithm.md)
+
 ## DDD
 - [DDD 정리](Domain_Driven_Design/DDD.md)
 
