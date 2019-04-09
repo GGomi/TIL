@@ -52,6 +52,7 @@
 - [마크다운 문법정리](ETC/markdown_rule.md)
 
 ## Java
+- [자바의 기본정리](Java/basic_java.md)
 - [이펙티브 자바 정리](Java/effective_java.md)
 - [POJO, VO, JavaBean](Java/POJO.md)
 ## Javascript
