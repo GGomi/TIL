@@ -92,9 +92,11 @@
 
 ## will read or was read(WRWR)
 - [ ] [클린코드](http://www.yes24.com/24/goods/11681152?scode=032&OzSrank=1) - 로버트.C.마틴
-- [ ] [개발자가 정복해야할 객체지향과 디자인패턴](http://www.yes24.com/24/goods/9179120?scode=032&OzSrank=1) - 최범균 (~ing)
+- [x] [개발자가 정복해야할 객체지향과 디자인패턴](http://www.yes24.com/24/goods/9179120?scode=032&OzSrank=1) - 최범균
 - [ ] [이펙티브 자바](http://www.yes24.com/24/goods/65551284?scode=032&OzSrank=1) - 조슈아 블로크 (~ing)
 - [ ] [객체지향의 사실과 오해](http://www.yes24.com/24/Goods/18249021?Acode=101) - 조영호
+- [ ] [이것이 자바다](http://www.yes24.com/Product/Goods/15651484?Acode=101) - 신용권
+- [ ] [처음으로 배우는 스프링부트 2](http://www.yes24.com/Product/Goods/64584833?scode=032&OzSrank=1) - 김영재 (~ing)
 ---
 
 ## 유용한 자료들
@@ -104,9 +106,23 @@
 - [객체지향프로그래밍입문 (Inflearn)](https://www.inflearn.com/course/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8/) - 최범균님
 - [JPA프로그래밍 기본다지기 (Youtube)](https://youtu.be/WfrSN9Z7MiA) - 김영한님
 - [백기선님 유튜브](https://www.youtube.com/user/whiteship2000)
+- [운영체제 강의](http://www.kocw.net/home/search/kemView.do?kemId=1046323&ar=pop) - 이화여대
 
 ### Blog
-- [Spring jpa practice (Blog)](https://cheese10yun.github.io/spring-jpa-best/)
+- [Spring jpa practice](https://cheese10yun.github.io/spring-jpa-best/)
+- [서블릿 컨테이너와 스프링부트 동작과정](https://minwan1.github.io/2018/11/21/2018-11-21-jsp-springboot-%EB%8F%99%EC%9E%91%EA%B3%BC%EC%A0%95/)
+- [서블릿 컨테이너와 스프링 컨테이너](https://wan-blog.tistory.com/16)
+- [TCP/IP 송수신과정](https://wan-blog.tistory.com/44)
+- [Java 란?](https://wan-blog.tistory.com/26)
+- [Java Collection](https://wan-blog.tistory.com/34)
+- [Java Exception](https://wan-blog.tistory.com/12)
+- [Java Exception 발생 시 Transaction 처리주의](https://wan-blog.tistory.com/15)
+- [Java Equals, HashCode](https://wan-blog.tistory.com/35)
+- [String Buffer, Builder, String 차이](https://wan-blog.tistory.com/29)
+- [운영체제란?](https://wan-blog.tistory.com/31)
+- [컴퓨터시스템구조란?](https://wan-blog.tistory.com/32)
+- [톰캣 세션 동작원리](https://wan-blog.tistory.com/8)
+- [HTTPS?](https://wan-blog.tistory.com/47)
 
 # Writing Rules
 
