@@ -30,12 +30,13 @@ try {
 }
 ```
 
-그리고, 코드의 복잡성 이외에도 ```finally``` 문에서 예외가 나면 다른 예외를 덮어써버린다는 것이다. 그래서 ```finally``` 이전에 예외가 있었고, finally에서 예외가 난다면 상당히 찾기 힘들어질 수 있다.
-
-이런 문제점들을 해결하고자 Java 7부터 ```try-with-resources```가 나왔으며 이는 ```AutoCloseable``` 인터페이스를 구현하고있다. (이 책의 저자-Josh Bloch 가 작성함..)
 ![josh-bloch](https://user-images.githubusercontent.com/19489949/59926556-8251e380-9475-11e9-9257-6e88edd147c1.png)
 
-```try-with-resources```는 try 문에 AutoClosable을 구현하고 있는 클래스라면 아래와 같이 포함해서 작성할 수 있으며 자동으로 try문이 끝나게되면 close를 해주게 된다.
+그리고, 코드의 복잡성 이외에도 `finally` 문에서 예외가 나면 다른 예외를 덮어써버린다는 것이다. 그래서 finally 이전에 예외가 있었고, `finally`에서 예외가 난다면 상당히 찾기 힘들어질 수 있다.
+
+이런 문제점들을 해결하고자 Java 7부터 `try-with-resources`가 나왔으며 이는 `AutoCloseable` 인터페이스를 구현하고있다. (이 책의 저자-Josh Bloch 가 작성함..)
+
+`try-with-resources`는 try 문에 AutoClosable을 구현하고 있는 클래스라면 아래와 같이 포함해서 작성할 수 있으며 자동으로 try문이 끝나게되면 close를 해주게 된다.
 
 ```java
 try (InputStream in = new FileInputStream(src); 
