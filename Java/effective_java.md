@@ -8,6 +8,7 @@
 > 이 글은 Effective Java를 읽고 정리한 글입니다.
 
 # 목차
+- [Item 1. 생성자 대신 정적팩토리 메서드를 사용하라]()
 - [Item 9. try-finally 보다 try-with-resources를 사용하라.](#Item-9.-try\-finally-보다-try\-with\-resources를-사용하라.)
 
 
