@@ -64,10 +64,9 @@
 ## JPA
 - [JPA 기초](JPA/JPA_Basic.md)
 - [JPA 연관관계](JPA/JPA_Relation.md)
-- [ModelMapper, DTO](JPA/modelMaper.md)
 
 ## Linux
-- [Pipe](https://github.com/GGomi/TIL/tree/master/linux/pipe)
+- [Pipe](/linux/pipe/README.md)
 
 ## Nodejs
 - [Get & Post](nodejs/get_post.md)
@@ -92,7 +91,7 @@
 ## REST API
 - [REST API 정리](REST/RESTAPI.md)
 
-## will read or was read(WRWR)
+## Will read or was read(WRWR)
 - [ ] [클린코드](http://www.yes24.com/24/goods/11681152?scode=032&OzSrank=1) - 로버트.C.마틴
 - [x] [개발자가 정복해야할 객체지향과 디자인패턴](http://www.yes24.com/24/goods/9179120?scode=032&OzSrank=1) - 최범균
 - [ ] [이펙티브 자바](http://www.yes24.com/24/goods/65551284?scode=032&OzSrank=1) - 조슈아 블로크 (~ing)
