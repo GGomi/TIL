@@ -9,6 +9,7 @@
 
 # 목차
 - [Item 1. 생성자 대신 정적팩토리 메서드를 고려하라](#Item-1.-생성자-대신-정적팩토리-메서드를-고려하라)
+- [Item 3. private 생성자나 열거타입으로 싱글턴임을 보증하라](#Item-3.-private-생성자나-열거타입으로-싱글턴임을-보증하라)
 - [Item 9. try-finally 보다 try-with-resources를 사용하라.](#Item-9.-try\-finally-보다-try\-with\-resources를-사용하라.)
 
 # Item 1. 생성자 대신 정적팩토리 메서드를 고려하라
@@ -61,6 +62,22 @@ public static Boolean valueOf(boolean b) {
 ### `public` 생성자와 정적팩토리메서드의 상대적인 장단점을 이해하고, 사용하자!
 
 
+# Item 3. private 생성자나 열거타입으로 싱글턴임을 보증하라
+- 싱글턴 클래스란 인스턴스를 오직 하나만 생성할 수 있는 클래스
+- 싱글턴을 만드는 방법은 **private static final필드**와 **정적 팩터리방식**, **열거타입**
+
+## private static final 필드
+```java
+public class Elvis {
+    public static final Elvis INSTANCE = new Elvis();
+    private Elvis() {
+
+    }
+
+    public void leaveTheBuilding(){}
+}
+```
+- private 생성자는 
 # Item 9. try-finally 보다 try-with-resources를 사용하라.
 DB 연결이나 파일 입출력 같은 close()를 통해 닫아주어야하는 자원들이 있다. 이런 자원들은 Java 7 이전에는 try-finally을 통해서 close를 시켜주었다.
 
