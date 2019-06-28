@@ -77,7 +77,8 @@ public class Elvis {
     public void leaveTheBuilding(){}
 }
 ```
-- private 생성자는 
+- private 생성자는 **Elvis.INSTANCE**를 초기화할 때 딱 한 번만 호출됨.
+- public이나 protected 생성자가 없으므로 Elvis클래스가 초기화 될 때 만들어진 인스턴스가 전체 시스템에서 하나뿐임이 보장된다.
 # Item 9. try-finally 보다 try-with-resources를 사용하라.
 DB 연결이나 파일 입출력 같은 close()를 통해 닫아주어야하는 자원들이 있다. 이런 자원들은 Java 7 이전에는 try-finally을 통해서 close를 시켜주었다.
 
